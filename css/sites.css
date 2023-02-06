@@ -1,0 +1,89 @@
+.sites {
+    padding: 110px 0;
+}
+.sites-title {
+    max-width: 739px;
+    margin: 0 auto 50px auto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+}
+.sites-descr {
+    max-width: 730px;
+    margin: 0 auto 70px auto;
+    text-align: center;
+}
+.sites-box {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto 50px auto;
+}
+.sites-card {
+    max-width: 353px;
+    padding: 46px 0 0 127px;
+    box-sizing: border-box;
+    background-image: url(../images/sites-bg.png);
+    background-repeat: no-repeat;
+}
+.sites-card-headline {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.sites-card-descr {
+    font-size: 14px;
+    line-height: 22px;
+}
+.sites-services {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 15px 36px;
+    box-sizing: border-box;
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    transition: .3s;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sites-services:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+/* ==================================================1120====================================== */
+@media (max-width: 1120px) {
+    .sites-box {
+        justify-content: center;
+    }
+}
+
+
+/* ==================================================425====================================== */
+@media (max-width: 425px) {
+    .sites {
+        padding: 50px 0;
+    }
+    .sites-title {
+        margin: 0 auto 25px auto;
+        font-size: 33px;
+        line-height: 38px;
+    }
+    .sites-descr {
+        margin: 0 auto 35px auto;
+    }
+}

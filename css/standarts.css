@@ -1,0 +1,107 @@
+.standarts {
+    padding: 100px 0 70px 0;
+    background: #F6F6F8;
+}
+.standarts-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.standarts-left {
+    max-width: 489px;
+    margin-top: 52px;
+}
+.standarts-title {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+}
+.standarts-descr {
+    margin-bottom: 30px;
+}
+.standarts-link {
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF;
+}
+.standarts-right {
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    background-image: url(../images/standarts-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.standarts-bottom {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.standarts-bottom-item {
+    max-width: 104px;
+}
+.standarts-bottom-number {
+    padding-left: 50px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-image: url(../images/standarts-bottom-bg.svg);
+    background-repeat: no-repeat;
+    font-size: 36px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+
+
+
+
+/* ==================================================1120====================================== */
+@media (max-width: 1050px) {
+    .standarts-box {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+/* ==================================================700====================================== */
+@media (max-width: 700px) {
+    .standarts-bottom {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+
+
+
+/* ==================================================425====================================== */
+@media (max-width: 425px) {
+    .standarts {
+        padding: 0px 0 35px 0;
+        background: #F6F6F8;
+    }
+    .standarts-title {
+        margin-bottom: 10px;
+    }    
+    .standarts-descr {
+        margin-bottom: 10px;
+    }
+    .standarts-box {
+        padding-bottom: 45px;
+    }
+    .standarts-bottom {
+        padding-top: 30px;
+    }
+}
